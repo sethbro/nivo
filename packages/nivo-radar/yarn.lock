@@ -2,9 +2,10 @@
 # yarn lockfile v1
 
 
-"@nivo/babel-preset@0.32.0-10":
-  version "0.32.0-10"
-  resolved "https://registry.yarnpkg.com/@nivo/babel-preset/-/babel-preset-0.32.0-10.tgz#4ac1ebef72a0670642259a5741930329b449a1ca"
+"@nivo/babel-preset@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@nivo/babel-preset/-/babel-preset-0.33.0.tgz#2bfe061146c3f52c47eb98d89c284208017d82c0"
+  integrity sha512-emS/nkRF5v8R8CZxQxYcwHdg/pXFxYldyxgtqXwjXMoOvmfiDc6QYVdv/ChT9goeefUaXcx8CW9OMKfPC0rATw==
   dependencies:
     babel-cli "^6.26.0"
     babel-jest "^20.0.3"
@@ -31,9 +32,10 @@
     babel-plugin-transform-object-rest-spread "^6.26.0"
     babel-plugin-transform-react-jsx "^6.24.1"
 
-"@nivo/core@0.32.0-10":
-  version "0.32.0-10"
-  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.32.0-10.tgz#d937618db5870fbb7bb6df75aef637a35a26c70f"
+"@nivo/core@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.33.0.tgz#d4797275f8bf28f8e9fcc6f720d78cc354561050"
+  integrity sha512-U7lKIuYuWYJ/w8ZZzgqXLh6cVPkkMpOTIPPL4TCIMdbVXeDufdN94n2BZ1uhg9MiddklZ9GhJggoiC0a0+tlGQ==
   dependencies:
     d3-color "^1.0.3"
     d3-format "^1.2.0"
@@ -44,6 +46,24 @@
     d3-shape "^1.2.0"
     react-measure "^2.0.2"
     react-motion "^0.5.2"
+    recompose "^0.26.0"
+
+"@nivo/generators@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@nivo/generators/-/generators-0.33.0.tgz#1e0c01fba6f637a839aa05cd364315bc3dbcc741"
+  integrity sha512-1zc0ftR82Vuf85yfcUjqV63pBxsqb845qgIldqEJgwMQ+EexsOH0AqHer89zq6S8DZseSbbOnPmzsfFYJGNG3Q==
+  dependencies:
+    d3-time "^1.0.7"
+    d3-time-format "^2.0.5"
+    lodash.random "^3.2.0"
+    lodash.range "^3.2.0"
+    lodash.shuffle "^4.2.0"
+
+"@nivo/legends@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@nivo/legends/-/legends-0.33.0.tgz#8eb5a228b2cfb81dfc464ddb854c266768f039c2"
+  integrity sha512-BCy9nd6iNUQbN9W0tN0L5cQdqJU9EiFetMi3zo+LHIa25nd4ju/gYRjiC7eHprfy9ouIUKMcv7J8tobuHfTP4A==
+  dependencies:
     recompose "^0.26.0"
 
 abab@^1.0.3:
@@ -925,6 +945,11 @@ d3-color@1, d3-color@^1.0.3:
 d3-format@1, d3-format@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-1.2.1.tgz#4e19ecdb081a341dafaf5f555ee956bcfdbf167f"
+
+d3-format@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-1.4.5.tgz#374f2ba1320e3717eb74a9356c67daee17a7edb4"
+  integrity sha512-J0piedu6Z8iB6TbIGfZgDzfXxUFN3qQRMofy2oPdXzQibYGqPB/9iMcxr/TGalU+2RsyDO+U4f33id8tbnSRMQ==
 
 d3-hierarchy@^1.1.5:
   version "1.1.5"
@@ -2153,16 +2178,6 @@ nan@^2.3.0:
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
-
-nivo-generators@^0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/nivo-generators/-/nivo-generators-0.9.3.tgz#6fb1f3452d5fa9a25ac812d5915f6ff3735d5ac7"
-  dependencies:
-    d3-time "^1.0.7"
-    d3-time-format "^2.0.5"
-    lodash.random "^3.2.0"
-    lodash.range "^3.2.0"
-    lodash.shuffle "^4.2.0"
 
 node-fetch@^1.0.1:
   version "1.7.3"
